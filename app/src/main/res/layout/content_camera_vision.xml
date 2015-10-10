@@ -39,7 +39,7 @@
                 android:textSize="12pt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
-            <EditText
+            <EditText android:id="@+id/filepath"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/pathSave"/>
